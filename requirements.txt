@@ -2,4 +2,7 @@ pandas
 numpy
 seaborn
 matplotlib
--e . #this will connect the req.txt to the setup.py
+scikit-learn
+catboost
+xgboost
+-e .
