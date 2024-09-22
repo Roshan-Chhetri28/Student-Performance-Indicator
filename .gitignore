@@ -124,6 +124,9 @@ celerybeat.pid
 
 # Environments
 .artifacts
+.artifacts/        # Ignore the entire directory
+**/.artifacts/     # Ignore from any directory level
+*.artifacts        # Ignore any files that match the pattern
 .env
 .venv
 env/
